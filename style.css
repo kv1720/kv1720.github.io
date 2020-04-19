@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+ /* * {
+  font-family: 'Lobster';
+}
+.fly {
+  font-size: 30px;
+}
+h2, h1, h3 {
+  font-weight:100;
+  text-align: center;
+}
+.names {
+  border: 1px blue solid;
+  padding: 15px;
+}
+#fish {
+  color: Orange;
+  border: 2px black dotted;
+}
+#cake {
+  background-color: #d6318c;
+}
+#cookie {
+  background-color: #bde8ac;
+}
+.oreo {
+  margin: 15px;
+}
+.flower {
+  height: 500px;
+  width: 400px;
+}
+.fish {
+  background-color: #96ceb4;
+}
+.cat {
+  color: #ffeead;
+  font-style: italic;
+  border-bottom: dotted 3px #96ceb4;
+  width: 80%;
+  margin-left: 10%;
+}
+div {
+  background-color: #ff6f69;
+  border: dashed 4px #ffcc5c;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.flex-item:nth-of-type(1) { order: 3; }
+.flex-item:nth-of-type(2) { order: 4; }
+.flex-item:nth-of-type(3) { order: 1; }
+.flex-item:nth-of-type(4) { order: 5; }
+.flex-item:nth-of-type(5) { order: 2; }
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+
+  line-height: 100px;
+  color: pink;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+}
+#viv {
+  color: #ffeead;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.milkshake {
+  transform: rotate(90deg);
+  width: 400px;
+  height: auto;
+} */
+header {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header section:nth-of-type(1){
+  width: 25%;
+  height: 400px;
+  margin: 10px auto;
+}
+header img {
+  width: 100%;
+  height: 100%;
+}
+header h1 {
+  text-align: center;
+}
