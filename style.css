@@ -1,117 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
-
- /* * {
-  font-family: 'Lobster';
+body {
+  background-color:indianred;
 }
-.fly {
-  font-size: 30px;
-}
-h2, h1, h3 {
-  font-weight:100;
-  text-align: center;
-}
-.names {
-  border: 1px blue solid;
-  padding: 15px;
-}
-#fish {
-  color: Orange;
-  border: 2px black dotted;
-}
-#cake {
-  background-color: #d6318c;
-}
-#cookie {
-  background-color: #bde8ac;
-}
-.oreo {
-  margin: 15px;
-}
-.flower {
-  height: 500px;
-  width: 400px;
-}
-.fish {
-  background-color: #96ceb4;
-}
-.cat {
-  color: #ffeead;
-  font-style: italic;
-  border-bottom: dotted 3px #96ceb4;
-  width: 80%;
-  margin-left: 10%;
-}
-div {
-  background-color: #ff6f69;
-  border: dashed 4px #ffcc5c;
-  width: 50%;
-  text-align: center;
-  margin-left: 25%;
-  margin-top: 5%;
-}
-p {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 20px;
-  font-weight: bold;
-}
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  justify-content: center;
-
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-}
-.flex-item:nth-of-type(1) { order: 3; }
-.flex-item:nth-of-type(2) { order: 4; }
-.flex-item:nth-of-type(3) { order: 1; }
-.flex-item:nth-of-type(4) { order: 5; }
-.flex-item:nth-of-type(5) { order: 2; }
-
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 100px;
-  height: 100px;
-  margin: 5px;
-
-  line-height: 100px;
-  color: pink;
-  font-weight: bold;
-  font-size: 10px;
-  text-align: center;
-}
-#viv {
-  color: #ffeead;
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.milkshake {
-  transform: rotate(90deg);
-  width: 400px;
-  height: auto;
-} */
 header {
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-header section:nth-of-type(1){
+header section:nth-of-type(1) {
   width: 25%;
   height: 400px;
   margin: 10px auto;
@@ -120,6 +17,95 @@ header img {
   width: 100%;
   height: 100%;
 }
-header h1 {
+header h1, header h2 {
+  text-align: center;
+}
+body > section:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1, h2, h3, h4 {
+  color: blanchedalmond;
+  font-weight:900;
+  text-decoration: underline;
+  text-decoration-color: #CDE1FF;
+  text-shadow: 1px 2px 2px #b14446;
+}
+h1 {
+  font-style: Italic;
+}
+h2, h3 {
+ text-align: center;
+}
+.dotted {
+  border: 5px dotted yellow;
+  outline: dashed #da70d6;
+  width: 200px;
+ font-size: 15px;
+}
+li:nth-of-type(1) , li:nth-of-type(8) {
+  color: #ffcccb;
+ font-family: 'Indie Flower', cursive;
+ text-shadow: 1px 2px 2px #b14446;
+}
+li:nth-of-type(2) , li:nth-of-type(9) {
+  color: lightsalmon;
+ font-family: 'Indie Flower', cursive;
+ text-shadow: 1px 2px 2px #b14446;
+}
+li:nth-of-type(3) {
+  color: lightgoldenrodyellow;
+ font-family: 'Indie Flower', cursive;
+ text-shadow: 1px 2px 2px #b14446;
+}
+li:nth-of-type(4) {
+  color: lightgreen;
+ font-family: 'Indie Flower', cursive;
+ text-shadow: 1px 2px 2px #b14446;
+}
+li:nth-of-type(5) {
+  color: lightblue;
+ font-family: 'Indie Flower', cursive;
+ text-shadow: 1px 2px 2px #b14446;
+}
+li:nth-of-type(6) {
+  color: lightgrey;
+ font-family: 'Indie Flower', cursive;
+ text-shadow: 1px 2px 2px #b14446;
+}
+li:nth-of-type(7) {
+  color: rgb(213, 165, 214);
+ font-family: 'Indie Flower', cursive;
+ text-shadow: 1px 2px 2px #b14446;
+}
+.bio,.inspiration,.career {
+  color: #80daeb;
+  font-family: 'Indie Flower', cursive;
+  border: 1px dotted #da70d6;
+  outline: inset #da70d6;
+  text-shadow: 1px 2px 2px #b14446;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-content: space-between;
+  align-items: stretch;
+  align-items: center;
+}
+.flex-item {
+  background-color: #a34ba3;
+  padding: 10px;
+  width: 130px;
+  height: 100px;
+  margin: 10px;
+
+  font-size: 17px;
   text-align: center;
 }
