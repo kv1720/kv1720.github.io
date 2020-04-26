@@ -122,3 +122,6 @@ li:nth-of-type(7) {
   font-size: 17px;
   text-align: center;
 }
+#light-mode {
+display: none;  
+}
