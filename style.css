@@ -97,8 +97,11 @@ li:nth-of-type(7) {
   padding: 20px;
 }
  .flower {
-  margin: auto;
-  width: 50%
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 10%;
+  display: block;
 }
 .flex-container {
   display: flex;
