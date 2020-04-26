@@ -97,8 +97,8 @@ li:nth-of-type(7) {
   padding: 20px;
 }
  .flower {
-  height: 500px;
-  width: 50%;
+  height: auto;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -121,3 +121,4 @@ li:nth-of-type(7) {
 
   font-size: 17px;
   text-align: center;
+}
