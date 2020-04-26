@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+ /* * {
+  font-family: 'Lobster';
+}
+.flower {
+  height: 500px;
+  width: 400px;
+}
+.milkshake {
+  transform: rotate(90deg);
+  width: 400px;
+  height: auto;
+} */
 body {
   background-color:indianred;
 }
@@ -8,7 +21,7 @@ header {
   flex-direction: column;
   justify-content: center;
 }
-header section:nth-of-type(1) {
+header section:nth-of-type(1){
   width: 25%;
   height: 400px;
   margin: 10px auto;
@@ -20,13 +33,17 @@ header img {
 header h1, header h2 {
   text-align: center;
 }
+.milkshake {
+  width: 400px;
+  height: auto;
+}
 body > section:nth-of-type(1) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-h1, h2, h3, h4 {
+ h1, h2, h3, h4 {
   color: blanchedalmond;
   font-weight:900;
   text-decoration: underline;
@@ -37,48 +54,49 @@ h1 {
   font-style: Italic;
 }
 h2, h3 {
- text-align: center;
+  text-align: center;
 }
-.dotted {
+.intro {
   border: 5px dotted yellow;
   outline: dashed #da70d6;
-  width: 200px;
- font-size: 15px;
+  width: 400px;
+  margin: auto;
+  font-size: 15px;
 }
 li:nth-of-type(1) , li:nth-of-type(8) {
   color: #ffcccb;
- font-family: 'Indie Flower', cursive;
- text-shadow: 1px 2px 2px #b14446;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 2px 2px #b14446;
 }
 li:nth-of-type(2) , li:nth-of-type(9) {
   color: lightsalmon;
- font-family: 'Indie Flower', cursive;
- text-shadow: 1px 2px 2px #b14446;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 2px 2px #b14446;
 }
 li:nth-of-type(3) {
   color: lightgoldenrodyellow;
- font-family: 'Indie Flower', cursive;
- text-shadow: 1px 2px 2px #b14446;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 2px 2px #b14446;
 }
 li:nth-of-type(4) {
   color: lightgreen;
- font-family: 'Indie Flower', cursive;
- text-shadow: 1px 2px 2px #b14446;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 2px 2px #b14446;
 }
 li:nth-of-type(5) {
   color: lightblue;
- font-family: 'Indie Flower', cursive;
- text-shadow: 1px 2px 2px #b14446;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 2px 2px #b14446;
 }
 li:nth-of-type(6) {
   color: lightgrey;
- font-family: 'Indie Flower', cursive;
- text-shadow: 1px 2px 2px #b14446;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 2px 2px #b14446;
 }
 li:nth-of-type(7) {
   color: rgb(213, 165, 214);
- font-family: 'Indie Flower', cursive;
- text-shadow: 1px 2px 2px #b14446;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 2px 2px #b14446;
 }
 .bio,.inspiration,.career {
   color: #80daeb;
@@ -108,4 +126,3 @@ li:nth-of-type(7) {
 
   font-size: 17px;
   text-align: center;
-}
